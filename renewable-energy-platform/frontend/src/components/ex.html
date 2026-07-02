@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>dynamic page</title>
+    </head>
+    <body>
+        <h1 id="title">Hello World</h1>
+        <button id="changeBtn">Change Title</button>
+        <script>
+            const title1= document.getElementById('title');
+            const btn = document.getElementById('changeBtn');
+
+            btn.addEventListener('click', function(){
+                title1.innerHTML = 'Title Changed!';
+            });
+        </script>
+    </body>
+</html>
